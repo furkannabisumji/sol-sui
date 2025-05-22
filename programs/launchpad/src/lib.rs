@@ -7,7 +7,7 @@ pub mod launchpad {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
-        msg!("Greetings from: {:?}", ctx.program_id);
+        msg!("Greetings from my first program", ctx.program_id);
         Ok(())
     }
 }
